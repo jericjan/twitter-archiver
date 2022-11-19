@@ -23,21 +23,19 @@ CLIENT_SECRET="YOUR_CLIENT_SECRET_STRING_HERE"
 5. Done!
 
 ## How To Use
+Simply run `main.py` and follow the instructions. You can optionally provide arguments as shown below to run what you want immediately.
 
-There are four options. These apply to both python files below:  
 ```
-1.) Tweets and retweets  
-2.) Likes  
-3.) Bookmarks  
-4.) Following
+usage: main.py [-h] [-i [ENDPOINT] | -d [ENDPOINT]]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i [ENDPOINT], --info [ENDPOINT]
+                        Downloads JSON info from selected endpoint
+  -d [ENDPOINT], --download [ENDPOINT]
+                        Downloads info from selected endpoint
+
+ENDPOINT can be 'tweets', 'likes', 'bookmarks','following' or numbers 1-4 respectively.
 ```
-You can also run the files with an argument like so: `py main.py 1`  
-This will automatically choose the first option.
-
-### main.py
-Run this to download JSONs containing your Twitter data
-
-### downloader.py
-Run this after main.py to download the media of the URLs inside those JSON files
 
 ### Note: This program will ask for **READ** access to your account but it will only do this once. All info is stored locally on your machine. `https://url-parameters-displayer.netlify.app/` is also exactly what it says. Feel free to check the source code if you don't believe me.
