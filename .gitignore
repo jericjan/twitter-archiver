@@ -8,3 +8,5 @@ tweets_retweets/
 .env
 .nohup.out.swp
 user_id.txt
+venv.lnk
+venv/
