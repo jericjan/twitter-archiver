@@ -39,3 +39,4 @@ Run this to download JSONs containing your Twitter data
 ### downloader.py
 Run this after main.py to download the media of the URLs inside those JSON files
 
+## Note: This program will ask for access to your account but it will only do this once. All info is stored locally on your machine. `https://url-parameters-displayer.netlify.app/` is also exactly what it says. Feel free to check the source code if you don't believe me.
