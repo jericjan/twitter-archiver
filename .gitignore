@@ -1,0 +1,10 @@
+__pycache__/
+bookmarks/
+following/
+likes/
+nohup.out
+refresh_token.txt
+tweets_retweets/
+.env
+.nohup.out.swp
+user_id.txt
