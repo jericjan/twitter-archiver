@@ -4,6 +4,7 @@ for archiving your twitter stuff, since twitter might go byebye soon
 ## Installation
 1. Clone this repo
 2. `pip install -r requirements.txt`
+3. You also need [aria2](https://aria2.github.io/) installed
 
 ## Setting Up
 1. Go to [Twitter Developer Portal](https://developer.twitter.com/en/portal/dashboard) and create a project
