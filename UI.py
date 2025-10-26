@@ -51,7 +51,10 @@ class ChooseOption(App):
 
 class InputCode(App):
     def action_copy_text(self):
-        pyperclip.copy(self.authorize_url)
+        try:
+            pyperclip.copy(self.authorize_url)
+        except:
+            print("Could not copy text")
         self.bell()
 
     def compose(self) -> ComposeResult:
